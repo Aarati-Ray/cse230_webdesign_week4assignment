@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Image Slider</h1>
+
+        <div class="slider" aria-label="Image slider">
+
+            <div class="slider-viewport">
+                <div class="slider-track">
+                    <img src="images/image1.jpeg" alt="Slider image 1">
+                    <img src="images/image2.jpeg" alt="Slider image 2">
+                    <img src="images/image3.jpeg" alt="Slider image 3">
+                    <img src="images/image4.jpeg" alt="Slider image 4">
+                </div>
+
+                <button class="arrow prev"
+                        aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <button class="arrow next"
+                        aria-label="Next image">
+                    &#10095;
+                </button>
+            </div>
+
+            <div class="slider-dots"
+                 aria-label="Choose an image">
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
